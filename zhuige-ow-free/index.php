@@ -226,19 +226,19 @@ if (zhuige_theme_ow_free_option('home_slide_switch', '1')) :
 				<div class="zhuige-feed-form">
 					<div class="zhuige-form-line d-flex">
 						<label>姓名:</label>
-						<input type="text" placeholder="" class="input-username">
+						<input type="text" placeholder="" class="input-username" maxlength="20">
 					</div>
 					<div class="row d-flex flex-nowrap-md flex-wrap-xs justify-content-between">
 						<div class="md-6 xs-12">
 							<div class="zhuige-form-line d-flex">
 								<label>电话:</label>
-								<input type="text" placeholder="" class="input-phone">
+								<input type="text" placeholder="" class="input-phone" id="phone-input">
 							</div>
 						</div>
 						<div class="md-6 xs-12">
 							<div class="zhuige-form-line d-flex">
 								<label>E-mail:</label>
-								<input type="text" placeholder="" class="input-email">
+								<input type="text" placeholder="" class="input-email" id="email-input">
 							</div>
 						</div>
 					</div>
