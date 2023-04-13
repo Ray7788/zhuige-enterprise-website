@@ -322,6 +322,17 @@ if (zhuige_theme_ow_free_option('home_slide_switch', '1')) :
 		const lb2 = new Lb(options2);
 		lb2.start();
 	}
+
+	// 电话号码长度验证
+    var phoneInput = document.getElementById('phone-input');
+
+    phoneInput.addEventListener('input', function() {
+        var phoneNumber = phoneInput.value;
+
+        if (phoneNumber.length !== 11) {
+            alert('电话号码长度不正确！请确保长度为11位。');
+        }
+    });
 </script>
 
 <?php get_footer(); ?>
