@@ -333,6 +333,19 @@ if (zhuige_theme_ow_free_option('home_slide_switch', '1')) :
             alert('电话号码长度不正确！请确保长度为11位。');
         }
     });
+
+
+	// 邮箱格式验证
+	var emailInput = document.getElementById('email-input');
+
+    emailInput.addEventListener('input', function() {
+        var email = emailInput.value;
+        var emailRegex = /^[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,}$/;	// 使用正则表达式匹配
+
+        if (!emailRegex.test(email)) {
+            alert('E-mail格式不正确！请检查输入的内容。');
+        }
+    });
 </script>
 
 <?php get_footer(); ?>
