@@ -9,7 +9,8 @@ Zhuige Enterprise Official Website Theme (Open Source Version) is an open source
 **主题演示(Demo)**：https://ow.jiangqie.com/
 
 **主题下载（Gitee）**：https://gitee.com/zhuige_com/zhuige_theme_ow_free
-**[Download it from GitHub](enterprize)**
+
+**[Download it from GitHub](https://github.com/Ray7788/zhuige-enterprize-website/tree/main)**
 
 
 ### 追格（酱茄）开源产品 Other products(Wechat mobile)
